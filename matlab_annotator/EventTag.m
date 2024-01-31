@@ -54,7 +54,7 @@ function EventTag_OpeningFcn(hObject, eventdata, handles, varargin)
 
 % Choose default command line output for EventTag
 clc
-addpath([cd, filesep ,'HelpFunctions'])
+%addpath([cd, filesep ,'HelpFunctions'])
 handles.output = hObject;
 % screenSize = get(0,'ScreenSize');
 % handles.screenRes = [0 1680 0 1024];
